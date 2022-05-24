@@ -8,16 +8,14 @@ body {
     background-color: black;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
 
-.logo {
+.body {
     display: flex;
-    justify-content: left;
-}
-
-.header .container {
-    display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer {
@@ -33,5 +31,26 @@ body {
 
 .section {
     color: blue;
+    display: flex;
 }
 
+.one {
+    display: flex;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+}
